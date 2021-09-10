@@ -1,0 +1,27 @@
+[root@deploy CIOS]# bash /backup/make_hpccourse_backups.sh
+chdef -t node compute-1-1 groups=all,,cios_hpccourse_cluster1,cios_hpccourse
+Object name: compute-1-1
+    groups=all,cios_hpccourse_zone1,cios_hpccourse_cluster1
+Object name: compute-1-2
+    groups=all,cios_hpccourse_cluster1,cios_hpccourse_zone1
+chdef -t node compute-1-8 groups=all,,cios_hpccourse_cluster2,cios_hpccourse
+Object name: compute-1-8
+    groups=all,cios_hpccourse_zone2,cios_hpccourse_cluster2
+Object name: compute-1-9
+    groups=cios_hpccourse_zone2,cios_hpccourse_cluster2,all
+chdef -t node compute-1-12 groups=all,,cios_hpccourse_cluster3,cios_hpccourse
+Object name: compute-1-12
+    groups=cios_hpccourse_zone3,cios_hpccourse_cluster3,all
+Object name: compute-1-13
+    groups=cios_hpccourse_zone3,cios_hpccourse_cluster3,all
+chdef -t node compute-1-15 groups=all,,cios_hpccourse_cluster4,cios_hpccourse
+Object name: compute-1-15
+    groups=all,cios_hpccourse_zone4,cios_hpccourse_cluster4
+Object name: compute-1-16
+    groups=all,cios_hpccourse_zone4,cios_hpccourse_cluster4
+chdef -t node compute-1-5 groups=all,,cios_hpccourse_cluster5,cios_hpccourse
+Object name: compute-1-11
+    groups=all,cios_hpccourse_cluster5,cios_hpccourse_zone5
+Object name: compute-1-5
+    groups=cios_hpccourse_cluster5,all,cios_hpccourse_zone5
+
