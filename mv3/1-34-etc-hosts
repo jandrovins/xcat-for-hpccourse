@@ -1,0 +1,21 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.150.7.100 compute-1-1
+10.150.7.103 compute-1-11
+10.150.7.106 compute-1-12
+10.150.7.107 compute-1-13
+10.150.7.109 compute-1-16
+10.150.7.101 compute-1-2
+10.150.7.110 compute-1-27
+10.150.7.111 compute-1-28
+10.150.7.112 compute-1-30
+10.150.7.113 compute-1-31
+10.150.7.102 compute-1-5
+10.150.7.104 compute-1-8
+10.150.7.100 compute-1-1
+10.150.7.184 compute-1-32
+10.150.7.185 compute-1-33
+10.150.7.186 compute-1-34
+10.150.7.188 lab-2
+10.150.7.189 lab-3
+

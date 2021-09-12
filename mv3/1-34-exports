@@ -1,0 +1,5 @@
+/cios_hpccourse_mv3_fs/e1fs compute-1-[1,2,5](rw,async,no_root_squash,insecure)
+/cios_hpccourse_mv3_fs/e2fs compute-1-[8,11,12](rw,async,no_root_squash,insecure)
+/cios_hpccourse_mv3_fs/e3fs compute-1-[13,16,27](rw,async,no_root_squash,insecure)
+/cios_hpccourse_mv3_fs/e4fs compute-1-[28,31,32](rw,async,no_root_squash,insecure)
+/cios_hpccourse_mv3_fs/e5fs compute-1-33(rw,async,no_root_squash,insecure) lab-[2,3](rw,async,no_root_squash,insecure)
